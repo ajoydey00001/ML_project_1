@@ -2,6 +2,7 @@ from DataManager.SyntheticCharacterLoader import SyntheticCharacterLoader
 from Models.Teacher.Teacher import Teacher
 import json
 
+
 with open('Graphemes/Extracted/graphemes_bw_bnhtrd_syn.json', 'r') as f:
     graphemes_dict = json.load(f)
 
